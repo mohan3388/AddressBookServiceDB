@@ -29,3 +29,6 @@ Insert into Addressbook Values ('Rajesh','yadav','Bemetara','Durg','Chhattisgarh
 Update Addressbook Set City='Banglore',State='karnatak' where FirstName='murali';
 Update Addressbook Set Address='bhilai',ZipCode='491335' where FirstName='riya';
 select * from Addressbook
+
+----UC5----
+Delete from Addressbook where FirstName='riya';
