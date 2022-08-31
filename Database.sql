@@ -36,3 +36,7 @@ Delete from Addressbook where FirstName='riya';
 -----UC6-----
 Select * from Addressbook where City='Durg' Order By FirstName;
 Select * from AddressBook where State='Chhattisgarh' Order By FirstName;
+
+--UC7--
+select count(*) from AddressBook where city='Durg';
+select count(*) from AddressBook where State='Chhattisgarh';
