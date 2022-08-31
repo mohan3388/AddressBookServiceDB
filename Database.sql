@@ -25,3 +25,7 @@ Insert into Addressbook Values ('Rajesh','yadav','Bemetara','Durg','Chhattisgarh
 ('komal','patil','saibaba nagar','surat','gujarat',34567,'7854216785','komal222@gmail.com'),
 ('riya','khairnar','shiv nagar','jaipur','Rajasthan',432007,'7285108928','riya8993@gmail.com');
 
+----UC4----
+Update Addressbook Set City='Banglore',State='karnatak' where FirstName='murali';
+Update Addressbook Set Address='bhilai',ZipCode='491335' where FirstName='riya';
+select * from Addressbook
