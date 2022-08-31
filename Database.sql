@@ -43,3 +43,12 @@ select count(*) from AddressBook where State='Chhattisgarh';
 
 --UC8--
 select FirstName from Addressbook Order By City ASC;
+
+--UC9--
+ alter table Addressbook ADD Type varchar (10);
+ select * from Addressbook
+update AddressBook SET Type ='Family' Where FirstName = 'Pukesh';
+update AddressBook SET Type = 'Profession' Where FirstName='murali';
+update AddressBook SET Type = 'friends' Where FirstName='Rajesh';
+update AddressBook SET Type = 'Family' Where FirstName='komal';
+
