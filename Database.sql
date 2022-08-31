@@ -40,3 +40,6 @@ Select * from AddressBook where State='Chhattisgarh' Order By FirstName;
 --UC7--
 select count(*) from AddressBook where city='Durg';
 select count(*) from AddressBook where State='Chhattisgarh';
+
+--UC8--
+select FirstName from Addressbook Order By City ASC;
