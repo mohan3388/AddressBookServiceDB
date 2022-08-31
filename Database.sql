@@ -32,3 +32,7 @@ select * from Addressbook
 
 ----UC5----
 Delete from Addressbook where FirstName='riya';
+
+-----UC6-----
+Select * from Addressbook where City='Durg' Order By FirstName;
+Select * from AddressBook where State='Chhattisgarh' Order By FirstName;
