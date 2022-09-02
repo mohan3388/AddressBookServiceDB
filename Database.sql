@@ -60,3 +60,9 @@ Select COUNT(*),Type from Addressbook Group by Type
 
 
 Insert into Addressbook Values('gajpal','yadav','Bastar','Bastar','Chhattisgarh',490022,'9852474487','gajpal321@gmail.com','Friend')
+
+----UC12----
+Select * from Addressbook where City = 'Durg' or State = 'Chhattisgarh'
+Select Count(*),State,City from Addressbook Group by State,City
+select * from Addressbook where City='Durg' order by Firstname
+Select COUNT(*),Type from Addressbook Group by Type
