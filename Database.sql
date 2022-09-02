@@ -57,4 +57,6 @@ Select COUNT(*),Type from Addressbook Group by Type
 
 
 ---UC11----
+
+
 Insert into Addressbook Values('gajpal','yadav','Bastar','Bastar','Chhattisgarh',490022,'9852474487','gajpal321@gmail.com','Friend')
